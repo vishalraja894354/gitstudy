@@ -1,5 +1,6 @@
 package com.example.gitstudy.appUi
 
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
@@ -13,4 +14,13 @@ fun Home(modifier: Modifier = Modifier) {
 
     println("This is my Experimental branch code")
 
+
+
+}
+
+@Composable
+fun Button2(modifier: Modifier = Modifier) {
+    androidx.compose.material3.Button(onClick = {}) {
+        Text("Okay")
+    }
 }
