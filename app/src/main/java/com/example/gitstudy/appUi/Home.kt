@@ -7,5 +7,6 @@ import androidx.compose.ui.Modifier
 fun Home(modifier: Modifier = Modifier) {
 
     println("This is first commit")
+    println("This is second commit")
 
 }
